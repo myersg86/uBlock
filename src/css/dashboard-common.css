@@ -14,27 +14,24 @@ a {
     text-decoration: none;
     }
 .fa-icon.info {
-    color: var(--fg-icon-info-lvl-0-dimmed);
-    fill: var(--fg-icon-info-lvl-0-dimmed);
+    color: var(--info0-ink-dimmed);
+        fill: var(--info0-ink-dimmed);
     font-size: 115%;
     }
 .fa-icon.info:hover {
     color: inherit;
-    fill: inherit;
+        fill: inherit;
     }
 .fa-icon.info.important {
-    color: var(--fg-icon-info-lvl-3-dimmed);
-    fill: var(--fg-icon-info-lvl-3-dimmed);
+    color: var(--info3-ink-dimmed);
+        fill: var(--info3-ink-dimmed);
     }
 .fa-icon.info.important:hover {
-    color: var(--fg-icon-info-lvl-3);
-    fill: var(--fg-icon-info-lvl-3);
+    color: var(--info3-ink);
+        fill: var(--info3-ink);
     }
 input[type="number"] {
     width: 5em;
-    }
-input[type="checkbox"][disabled] + * {
-    color: var(--fg-0-50);
     }
 @media (max-height: 640px), (max-height: 800px) and (max-width: 480px) {
     .body > p,

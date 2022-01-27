@@ -29,12 +29,12 @@ body {
     width: 100vw;
     }
 #subscribe {
-    background-color: var(--bg-transient-notice);
     display: flex;
     flex-shrink: 0;
     padding: 4px;
     justify-content: space-between;
     max-height: 6em;
+    
     }
 #subscribe.hide {
     display: none;

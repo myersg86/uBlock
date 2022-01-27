@@ -28,7 +28,7 @@ body {
     }
 #listsOfBlockedHostsPrompt::before,
 .groupEntry:not([data-groupkey="user"]) .geDetails::before {
-    color: var(--fg-0-50);
+    color: var(--default-ink-5);
     content: '\2212';
     font-family: monospace;
     font-size: large;
@@ -49,7 +49,7 @@ body.hideUnused #listsOfBlockedHostsPrompt::before,
     pointer-events: none;
     }
 .groupEntry .geCount {
-    color: var(--fg-0-60);
+    color: var(--default-ink-4);
     font-size: 90%;
     pointer-events: none;
     }
@@ -76,9 +76,9 @@ body.hideUnused #listsOfBlockedHostsPrompt::before,
     }
 .listEntry .fa-icon,
 .listEntry .counts {
-    color: var(--fg-0-50);
+    color: var(--default-ink-5);
+        fill: var(--default-ink-5);
     display: none;
-    fill: var(--fg-0-50);
     font-size: 120%;
     margin: 0 0.2em 0 0;
     }
@@ -98,30 +98,29 @@ body.hideUnused #listsOfBlockedHostsPrompt::before,
 .listEntry .remove,
 .listEntry .unsecure,
 .listEntry .failed {
-    color: var(--fg-icon-info-lvl-4-dimmed);
+    color: var(--info4-ink-dimmed);
+        fill: var(--info4-ink-dimmed);
     cursor: pointer;
-    fill: var(--fg-icon-info-lvl-4-dimmed);
     }
 .listEntry .remove:hover,
 .listEntry .unsecure:hover,
 .listEntry .failed:hover {
-    color: var(--fg-icon-info-lvl-4);
-    fill: var(--fg-icon-info-lvl-4);
+    color: var(--info4-ink);
+        fill: var(--info4-ink);
     }
 .listEntry.external .remove {
     display: inline-flex;
     }
 .listEntry.mustread a.mustread {
-    color: var(--fg-icon-info-lvl-1-dimmed);
+    color: var(--info1-ink-dimmed);
+        fill: var(--info1-ink-dimmed);
     display: inline-flex;
-    fill: var(--fg-icon-info-lvl-1-dimmed);
     }
 .listEntry.mustread a.mustread:hover {
-    color: var(--fg-icon-info-lvl-1);
-    fill: var(--fg-icon-info-lvl-1);
+    color: var(--info1-ink);
+        fill: var(--info1-ink);
     }
 .listEntry .counts {
-    color: var(--fg-0-60);
     font-size: smaller;
 }
 .listEntry.checked .counts {
@@ -147,12 +146,12 @@ body.hideUnused #listsOfBlockedHostsPrompt::before,
     display: inline-flex;
     }
 .listEntry .obsolete {
-    color: var(--info-lvl-2-ink);
-    fill: var(--info-lvl-2-ink);
+    color: var(--info2-ink-dimmed);
+        fill: var(--info2-ink-dimmed);
     }
 .listEntry .obsolete:hover {
-    color: var(--info-lvl-2-ink-hover);
-    fill: var(--info-lvl-2-ink-hover);
+    color: var(--info2-ink);
+        fill: var(--info2-ink);
     }
 body:not(.updating) .listEntry.checked.obsolete .obsolete {
     display: inline-flex;
@@ -193,7 +192,7 @@ body.updating .listEntry.checked.obsolete .updating {
     -webkit-margin-start: 0;
     }
 :root.mobile .li.listEntry {
-    background-color: var(--bg-1);
+    /* background-color: var(--bg-1); */
     overflow-x: auto;
     }
 :root.mobile .li.listEntry label > span:not([class]) {

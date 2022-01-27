@@ -11,52 +11,87 @@
       https://protocol.mozilla.org/fundamentals/color.html
 */
 :root {
-    --blue-10: #80ebff;
-    --blue-40: #0090ed;
-    --blue-50: #0060df;
-    --blue-60: #0250bb;
-    --dark-gray-10: #52525e;
-    --dark-gray-30: #42414d;
-    --dark-gray-40: #3a3944;
-    --dark-gray-50: #32313c;
-    --dark-gray-70: #23222b;
-    --dark-gray-80: #1c1b22;
-    --dark-gray-90: #15141a;
-    --ink-20: #312a65;
-    --ink-50: #291d4f;
-    --ink-80: #20123a;
-    --ink-80-a4: #20123a0a;
-    --ink-80-a40: #20123a66;
-    --ink-80-a50: #20123a80;
-    --ink-90: #1d1133;
-    --light-gray-10: #f9f9fb;
-    --light-gray-10-a4: #f9f9fb0a;
-    --light-gray-10-a12: #f9f9fb1f;
-    --light-gray-10-a16: #f9f9fb29;
-    --light-gray-20: #f0f0f4;
-    --light-gray-25: #e8e8ed;
-    --light-gray-30: #e0e0e6;
-    --light-gray-30-a50: #e0e0e680;
-    --light-gray-40: #cfcfd8;
-    --light-gray-50: #bfbfc9;
-    --light-gray-60: #afafba;
-    --light-gray-70: #9f9fad;
-    --light-gray-80: #8f8f9e;
-    --light-gray-90: #80808f;
-    --orange-80: #9e280b;
-    --purple-60: #952bb9;
-    --red-60: #e22850;
-    --violet-40: #ab71ff;
-    --violet-60: #7542e5;
-    --violet-70: #592acb;
-    --violet-80: #45278d;
-    --yellow-10: #ffff98;
-    --yellow-30: #ffd567;
-    --yellow-40: #ffbd4f;
-    --yellow-50: #ffa436;
-    --yellow-60: #e27f2e;
-    --black: #000;
-    --white: #fff;
+    --blue-5: 170 242 255;
+    --blue-10: 128 235 255;
+    --blue-20: 0 221 255;
+    --blue-30: 0 179 244;
+    --blue-40: 0 144 237;
+    --blue-50: 0 96 223;
+    --blue-60: 2 80 187;
+    --blue-70: 5 64 150;
+    --blue-80: 7 48 114;
+    --blue-90: 9 32 77;
+    --dark-gray-10: 173.1 171.9 179.9;
+    --dark-gray-20: 151.8 150.6 158.4;
+    --dark-gray-30: 131 129.9 137.5;
+    --dark-gray-40: 110.8 109.7 117.1;
+    --dark-gray-50: 91.2 90.2 97.3;
+    --dark-gray-60: 72.4 71.4 78.2;
+    --dark-gray-70: 54.3 53.3 59.9;
+    --dark-gray-80: 37.1 36.2 42.4;
+    --dark-gray-90: 21 20 26;
+    --green-30: 136 255 209;
+    --green-40: 84 255 189;
+    --green-50: 63 225 176;
+    --green-60: 42 195 162;
+    --green-70: 0 135 135;
+    --green-80: 0 94 94;
+    --ink-80: 32 18 58;
+    --light-gray-10: 249 249 251;
+    --light-gray-20: 240 240 244;
+    --light-gray-30: 224 224 230;
+    --light-gray-40: 207 207 216;
+    --light-gray-50: 191 191 201;
+    --light-gray-60: 175 175 186;
+    --light-gray-70: 159 159 173;
+    --light-gray-80: 143 143 158;
+    --light-gray-90: 128 128 143;
+    --orange-5: 255 244 222;
+    --orange-10: 255 213 178;
+    --orange-20: 255 181 135;
+    --orange-30: 255 162 102;
+    --orange-40: 255 138 80;
+    --orange-50: 255 113 57;
+    --orange-60: 226 89 32;
+    --orange-70: 204 61 0;
+    --orange-80: 158 40 11;
+    --orange-90: 124 21 4;
+    --purple-5: 247 226 255;
+    --purple-10: 246 184 255;
+    --purple-20: 246 143 255;
+    --purple-30: 247 112 255;
+    --purple-40: 215 76 240;
+    --purple-50: 184 51 225;
+    --purple-60: 149 43 185;
+    --purple-70: 114 34 145;
+    --purple-80: 78 26 105;
+    --purple-90: 43 17 65;
+    --red-20: 255 154 162;
+    --red-30: 255 132 139;
+    --red-40: 255 106 117;
+    --red-50: 255 79 94;
+    --red-60: 226 40 80;
+    --red-70: 197 0 66;
+    --violet-5: 231 223 255;
+    --violet-10: 217 191 255;
+    --violet-20: 203 158 255;
+    --violet-30: 198 137 255;
+    --violet-40: 171 113 255;
+    --violet-50: 144 89 255;
+    --violet-60: 117 66 229;
+    --violet-70: 89 42 203;
+    --violet-80: 69 39 141;
+    --violet-90: 50 28 100;
+    --yellow-5: 255 255 204;
+    --yellow-10: 255 255 152;
+    --yellow-20: 255 234 128;
+    --yellow-30: 255 213 103;
+    --yellow-40: 255 189 79;
+    --yellow-50: 255 164 54;
+    --yellow-60: 226 127 46;
+    --yellow-70: 196 90 39;
+    --yellow-80: 167 52 31;
+    --yellow-90: 150 14 24;
 }
 
 /**
@@ -78,152 +113,161 @@
 
     --ubo-red: #800000;
 
-    --default-ink: var(--ink-80);
-    --default-ink-a4: var(--ink-80-a4);
-    --default-ink-a40: var(--ink-80-a40);
-    --default-ink-a50: var(--ink-80-a50);
-    --default-surface: var(--light-gray-10);
-    --default-surface-border: var(--light-gray-70);
-    --default-surface-hover: var(--light-gray-30-a50);
+    /* https://material.io/design/interaction/states.html#anatomy */
+    --elevation-up-surface: black;
+    --elevation-up1-opacity: 4%;
+    --elevation-up2-opacity: 8%;
+    --elevation-down-surface: white;
+    --elevation-down1-opacity: 16%;
+    --elevation-down2-opacity: 32%;
 
-    --bg-1: hsla(240, 20%, 98%, 1);
-    --bg-1-border: hsla(240, 20%, 90%, 1);
+    --root-surface: white;
+    --root-ink: black;
 
-    --bg-overlay-50: #0008;
+    --ink-rgb: var(--ink-80);
+    --ink-shade-1: 90%;
+    --ink-shade-2: 80%;
+    --ink-shade-3: 70%;
+    --ink-shade-4: 60%;
+    --ink-shade-5: 50%;
+    --ink-shade-6: 40%;
+    --ink-shade-7: 30%;
+    --ink-shade-8: 20%;
+    --ink-shade-9: 10%;
 
-    --bg-code: hsla(240, 20%, 93%, 1);
+    --default-ink: rgb(var(--ink-rgb));
+    --default-ink-1: rgb(var(--ink-rgb) / var(--ink-shade-1));
+    --default-ink-2: rgb(var(--ink-rgb) / var(--ink-shade-2));
+    --default-ink-3: rgb(var(--ink-rgb) / var(--ink-shade-3));
+    --default-ink-4: rgb(var(--ink-rgb) / var(--ink-shade-4));
+    --default-ink-5: rgb(var(--ink-rgb) / var(--ink-shade-5));
+    --default-ink-6: rgb(var(--ink-rgb) / var(--ink-shade-6));
+    --default-ink-8: rgb(var(--ink-rgb) / var(--ink-shade-8));
 
-    /* these fg colors are meant to render over bg colors */
-    --fg-0-80: hsla(261, 53%, 15%, 0.8);
-    --fg-0-70: hsla(261, 53%, 15%, 0.7);
-    --fg-0-60: hsla(261, 53%, 15%, 0.6);
-    --fg-0-50: hsla(261, 53%, 15%, 0.5);
-    --fg-0-40: hsla(261, 53%, 15%, 0.4);
-    --fg-0-30: hsla(261, 53%, 15%, 0.3);
-    --fg-0-20: hsla(261, 53%, 15%, 0.2);
+    --default-surface: rgb(var(--light-gray-10));
+    --default-surface-up1: rgb(var(--light-gray-20));
+    --default-surface-up2: rgb(var(--light-gray-30));
+    --default-surface-up3: rgb(var(--light-gray-40));
+    --default-surface-up4: rgb(var(--light-gray-50));
+    --default-surface-up5: rgb(var(--light-gray-60));
+    --default-surface-up6: rgb(var(--light-gray-70));
+    --default-surface-up7: rgb(var(--light-gray-80));
 
-    --link-ink: var(--violet-70);
+    --accent-ink: var(--default-surface);
+    --accent-surface: rgb(var(--violet-80));
+
+    --link-ink: var(--accent-surface);
 
     --fieldset-header-surface: transparent;
-    --fieldset-header-ink: var(--ink-20);
+    --fieldset-header-ink: var(--default-ink-3);
 
-    --button-surface: var(--light-gray-30);
-    --button-ink: var(--ink-20);
-    --button-surface-hover: var(--light-gray-40);
-    --button-active-surface: var(--blue-10);
-    --button-important-surface: var(--yellow-30);
-    --button-important-surface-hover: var(--yellow-40);
-    /* https://material.io/design/interaction/states.html#disabled */
+    --button-ink: var(--default-ink);
+    --button-surface: var(--default-surface-up2);
+    --button-border-radius: 5px;
+    --button-preferred-ink: var(--accent-ink);
+    --button-preferred-surface: var(--accent-surface);
     --button-disabled-filter: opacity(38%);
-    --button-disabled-surface: var(--light-gray-30);
-    --button-disabled-ink: var(--ink-20);
-    --button-preferred-surface: var(--ink-20);
-    --button-preferred-ink: white;
 
     --checkbox-size: calc(var(--font-size) + 2px);
-    --checkbox-ink: var(--light-gray-90);
-    --checkbox-checked-ink: var(--ink-20);
+    --checkbox-ink: var(--default-ink-4);
+    --checkbox-checked-ink: var(--accent-surface);
+    --checkbox-disabled-filter: opacity(38%);
 
-    --select-surface: white;
-
-    --bg-transient-notice: hsla(60, 100%, 95%, 1);
+    --notice-ink: var(--default-ink);
+    --notice-surface: rgb(var(--yellow-5));
+    --notice-surface-shadow: #ddd 0 2px 4px;
 
     --dashboard-bar-shadow:
-        0px 0px 0px 1px var(--default-ink-a4),
-        0px 1px 2px 0px #2200330a,
-        0px 2px 1px -1px #0730721f,
-        0px 1px 6px 0px #0e0d1a1f;
+        0px 0px 0px  1px rgb(var(--ink-rgb) /  4%),
+        0px 1px 2px  0px rgb(var(--ink-rgb) /  4%),
+        0px 2px 1px -1px rgb(var(--ink-rgb) / 12%),
+        0px 1px 6px  0px rgb(var(--ink-rgb) / 12%);
     --dashboard-tab-ink: var(--default-ink);
-    --dashboard-tab-active-ink: var(--violet-70);
-    --dashboard-tab-surface-hover: var(--default-surface-hover);
+    --dashboard-tab-active-ink: var(--accent-surface);
+    --dashboard-tab-surface-hover: var(--default-surface-up1);
+    --dashboard-tab-border-hover: var(--default-surface-up2);
 
-    --fg-icon-info-lvl-0-dimmed: #888;
-    --fg-icon-info-lvl-0: inherit;
-    --fg-icon-info-lvl-1-dimmed: hsla(240, 100%, 40%, 0.5);
-    --fg-icon-info-lvl-1: hsla(240, 100%, 40%, 1);
-    --info-lvl-2-ink: var(--yellow-50);
-    --info-lvl-2-ink-hover: var(--yellow-60);
-    --fg-icon-info-lvl-3-dimmed: hsla(16, 100%, 50%, 0.5);
-    --fg-icon-info-lvl-3: hsla(16, 100%, 50%, 1);
-    --fg-icon-info-lvl-4-dimmed: hsla(0, 100%, 35%, 0.5);
-    --fg-icon-info-lvl-4: hsla(0, 100%, 35%, 1);
-
-    --large-icon-info-lvl-2: hsla(41, 100%, 47%, 1);
-
-    --bg-tooltip: hsla(60, 100%, 97%, 1);
-    --fg-tooltip: var(--ink-80);
+    --info0-ink: var(--default-ink);
+    --info0-ink-dimmed: var(--default-ink-5);
+    --info1-ink: rgb(var(--blue-50));
+    --info1-ink-dimmed: rgb(var(--blue-50) / 60%);
+    --info2-ink: rgb(var(--yellow-50));
+    --info2-ink-dimmed: rgb(var(--yellow-50) / 60%);
+    --info3-ink: rgb(var(--orange-60));
+    --info3-ink-dimmed: rgb(var(--orange-60) / 60%);
+    --info4-ink: rgb(var(--red-70));
+    --info4-ink-dimmed: rgb(var(--red-70) / 60%);
 
     /* popup panel */
-    /* classic */
-    --bg-popup-cell-1: hsla(261, 0%, 93%, 1);
-    /* fenix */
-    --popup-power-ink: var(--blue-50);
-    --popup-power-disabled-ink: var(--light-gray-70);
-    --popup-power-ink-hover: var(--blue-60);
-    --bg-popup-cell-2: var(--light-gray-30);
-    --bg-popup-cell-label-filter: opacity(40%);
-    --fg-popup-cell-cname: hsla(240, 100%, 40%, 1);
-    --bg-popup-cell-allow: hsla(120, 40%, 75%, 1);
-    --bg-popup-cell-allow-own: hsla(120, 100%, 30%, 1);
-    --bg-popup-cell-noop: hsla(0, 0%, 75%, 1);
-    --bg-popup-cell-noop-own: hsla(0, 0%, 45%, 1);
-    --bg-popup-cell-block: hsla(0, 50%, 80%, 1);
-    --bg-popup-cell-block-own: hsla(0, 100%, 40%, 1);
-    --bg-popup-cell-label-mixed: hsla(45, 100%, 38%, 1);
-    --popup-icon-x-ink: var(--red-60);
+    --popup-cell-surface: var(--default-surface-up2);
+    --popup-cell-label-filter: opacity(40%);
+    --popup-cell-cname-ink: rgb(var(--blue-50));
+    --popup-cell-allow-own-surface: #008c00;
+    --popup-cell-allow-surface: #008c0060;
+    --popup-cell-noop-own-surface: #777777;
+    --popup-cell-noop-surface: #77777768;
+    --popup-cell-block-own-surface: #e12912;
+    --popup-cell-block-surface: #e1291250;
+    --popup-cell-label-mixed-surface: #c29100;
+    --popup-icon-x-ink: rgb(var(--red-60));
+    --popup-power-ink: rgb(var(--blue-50));
+    --popup-ruleset-tool-ink: var(--default-ink);
+    --popup-ruleset-tool-surface: rgb(var(--yellow-5) / 50%);
+    --popup-ruleset-tool-shadow: #ddd 0 2px 4px;
 
     /* horizontal line separator */
-    --hr-ink: var(--light-gray-30);
+    --hr-ink: var(--default-surface-up2);
 
     /* cloud widget */
-    --cloud-widget-surface: var(--light-gray-20);
+    --cloud-total-used-surface: rgb(var(--violet-60) / 25%);
+    --cloud-used-surface: rgb(var(--violet-60));
 
     /* codemirror */
-    --cm-gutter-border: var(--light-gray-40);
-    --cm-gutter-ink: var(--light-gray-90);
-    --cm-gutter-surface: var(--light-gray-25);
-    --cm-selection-surface: #d7d4f0;
+    --cm-active-line: var(--default-surface-up1);
+    --cm-cursor: var(--root-ink);
+    --cm-foldmarker-ink: rgb(var(--blue-40));
+    --cm-gutter-border: var(--default-surface-up2);
+    --cm-gutter-ink: var(--default-ink-5);
+    --cm-gutter-surface: var(--default-surface-up1);
+    --cm-matchingbracket: rgb(var(--green-30));
+    --cm-merge-copy-ink: rgb(var(--blue-50));
+    --cm-merge-l-chunk-border: rgb(var(--blue-5));
+    --cm-merge-l-chunk-surface: rgb(var(--blue-5) / 20%);
+    --cm-negative: #c00;
+    --cm-positive: #080;
+    --cm-selection-surface: #8cf4;
     --cm-selection-ink: var(--default-ink);
-    --cm-searching-surface: #ffff0066;
+    --cm-searching-ink: inherit;
+    --cm-searching-surface: rgb(var(--yellow-20) / 80%);
+    --cm-search-match-surface: rgb(var(--yellow-40) / 50%);
 
     /* syntax highlight: static filtering */
-    --sf-comment-ink: var(--light-gray-90);
-    --sf-def-ink: #0000ff;
-    --sf-directive-ink: var(--dark-gray-40);
-    --sf-error-ink: #ff0000;
-    --sf-error-surface: #ff000016;
-    --sf-keyword-ink: var(--purple-60);
-    --sf-notice-ink: var(--light-gray-60);
-    --sf-readonly-ink: var(--light-gray-80);
-    --sf-tag-ink: #117700;
-    --sf-value-ink: var(--orange-80);
+    --sf-comment-ink: var(--default-ink-5);
+    --sf-def-ink: rgb(var(--blue-50));
+    --sf-directive-ink: var(--default-ink);
+    --sf-error-ink: rgb(var(--red-60));
+    --sf-error-surface: rgb(var(--red-60) / 10%);
+    --sf-keyword-ink: rgb(var(--purple-60));
+    --sf-notice-ink: var(--default-surface-up5);
+    --sf-readonly-ink: var(--default-ink-6);
+    --sf-tag-ink: rgb(var(--green-60));
+    --sf-value-ink: rgb(var(--orange-70));
     --sf-variable-ink: var(--default-ink);
-    --sf-warning-ink: var(--yellow-50);
+    --sf-warning-ink: rgb(var(--yellow-50));
 
     /* syntax highlight: dynamic filtering */
-    --df-allow-ink: #117700;
-    --df-block-ink: #ff0000;
-    --df-noop-ink: var(--dark-gray-10);
-    --df-key-ink: var(--violet-70);
+    --df-allow-ink: var(--cm-positive);
+    --df-block-ink: var(--cm-negative);
+    --df-noop-ink: rgb(var(--dark-gray-10));
 
     /* logger */
+    --logger-allowed-surface: #00a00014;
     --logger-blocked-surface: #c0000014;
     --logger-modified-surface: #0000c010;
-    --logger-allowed-surface: #00a00014;
+    --logger-redirected-surface: rgb(var(--yellow-5) / 50%);
     --logger-blocked-em-surface: #c0000036;
     --logger-modified-em-surface: #0000c028;
     --logger-allowed-em-surface: #00a00036;
-}
-
-/**
-    Use slightly darker inks on lower pixel-density devices to improve
-    contrast.
-*/
-:root:not(.hidpi) {
-    --default-ink: var(--ink-90);
-    --button-ink: var(--ink-90);
-    --fieldset-header-ink: var(--ink-50);
-    --link-ink: var(--violet-80);
 }
 
 /**
@@ -231,13 +275,11 @@
       https://github.com/chrisaljoudi/uBlock/issues/467#issuecomment-95177219
  */
 :root.colorBlind {
-    --bg-popup-cell-allow: hsla(42, 100%, 80%, 1);
-    --bg-popup-cell-allow-own: hsla(42, 100%, 50%, 1);
-    --bg-popup-cell-noop: hsla(0, 0%, 75%, 1);
-    --bg-popup-cell-noop-own: hsla(0, 0%, 45%, 1);
-    --bg-popup-cell-block: hsla(230, 25%, 75%, 1);
-    --bg-popup-cell-block-own: hsla(230, 100%, 25%, 1);
-    --bg-popup-cell-label-mixed: hsla(25, 100%, 50%, 1);
+    --popup-cell-allow-surface: #ffb30060;
+    --popup-cell-allow-own-surface: #ffb300;
+    --popup-cell-block-surface: #00158060;
+    --popup-cell-block-own-surface: #001580;
+    --popup-cell-label-mixed-surface: #ff6a00;
 }
 
 /**
@@ -249,121 +291,96 @@
     https://github.com/uBlockOrigin/uBlock-issues/issues/1027#issuecomment-629641072
 */
 
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: var(--dark-gray-90);
-    }
-}
-
+/* https://material.io/design/color/dark-theme.html */
 :root.dark {
-    --default-ink: var(--light-gray-10);
-    --default-ink-a4: var(--light-gray-10-a4);
-    --default-ink-a50: var(--light-gray-30-a50);
-    --default-surface: var(--dark-gray-90);
-    --default-surface-hover: var(--dark-gray-50);
-    --bg-1: hsla(250, 13%, 9%, 1);
-    --bg-1-border: hsla(250, 13%, 16%, 1);
-    --bg-overlay-50: #0008;
-    --bg-code: hsla(0, 2%, 0%, 0.8);
-    --fg-0-80: hsla(0, 0%, 53%, 0.8);
-    --fg-0-70: hsla(0, 0%, 53%, 0.7);
-    --fg-0-60: hsla(0, 0%, 53%, 0.6);
-    --fg-0-50: hsla(0, 0%, 53%, 0.5);
-    --fg-0-40: hsla(0, 0%, 53%, 0.4);
-    --fg-0-30: hsla(0, 0%, 53%, 0.3);
-    --fg-0-20: hsla(0, 0%, 53%, 0.2);
-    --link-ink: #bb86fc;
-    --fieldset-header-surface: transparent;
-    --fieldset-header-ink: var(--light-gray-30);
-    --hr-ink: var(--dark-gray-50);
-    --button-surface: var(--light-gray-10-a12);
-    --button-ink: var(--default-ink);
-    --button-surface-hover: var(--light-gray-10-a12);
-    --button-active-surface: var(--light-gray-70);
-    --button-important-surface: var(--dark-gray-30);
-    --button-important-surface-hover: var(--light-gray-60);
-    --button-disabled-filter: opacity(38%);
-    --button-disabled-surface: var(--dark-gray-50);
-    --button-disabled-ink: var(--light-gray-30-a50);
-    --button-preferred-surface: var(--dark-gray-50);
-    --button-preferred-ink: var(--light-gray-70);
-    --checkbox-size: calc(var(--font-size) + 2px);
-    --checkbox-ink: var(--default-ink);
-    --checkbox-checked-ink: #bb86fc;
-  /*--select-surface:*/
-    --bg-transient-notice: var(--dark-gray-50);
-    --dashboard-bar-shadow: 0px 0px 0px 1px var(--default-ink-a4);
-    --dashboard-tab-active-ink: #bb86fc;
-    --dashboard-tab-surface-hover: var(--default-surface-hover);
-    --fg-icon-info-lvl-0-dimmed: #888;
-    --fg-icon-info-lvl-0: inherit;
-    --fg-icon-info-lvl-1-dimmed: hsla(258, 57%, 35%, 1);
-    --fg-icon-info-lvl-1: hsla(258, 66%, 48%, 1);
-    --info-lvl-2-ink: var(--yellow-50);
-    --info-lvl-2-ink-hover: var(--yellow-60);
-    --fg-icon-info-lvl-3-dimmed: hsla(16, 100%, 50%, 0.5);
-    --fg-icon-info-lvl-3: hsla(16, 100%, 50%, 1);
-    --fg-icon-info-lvl-4-dimmed: hsla(0, 100%, 35%, 0.5);
-    --fg-icon-info-lvl-4: hsla(0, 100%, 35%, 1);
-    --large-icon-info-lvl-2: hsla(41, 100%, 47%, 1);
-    --bg-tooltip: var(--dark-gray-50);
-    --fg-tooltip: var(--light-gray-30);
-    --bg-popup-cell-1: var(--dark-gray-50);
-    --popup-power-disabled-ink: var(--light-gray-60);
-    --popup-power-ink-hover: var(--dark-gray-30);
-    --bg-popup-cell-2: var(--dark-gray-50);
-    --bg-popup-cell-label-filter: opacity(40%);
-    --fg-popup-cell-cname: hsla(0, 0%, 53%, 0.3);
-    --bg-popup-cell-allow: hsla(120, 40%, 75%, 1);
-    --bg-popup-cell-allow-own: hsla(120, 100%, 30%, 1);
-    --bg-popup-cell-noop: hsla(0, 0%, 75%, 1);
-    --bg-popup-cell-noop-own: hsla(0, 0%, 45%, 1);
-    --bg-popup-cell-block: hsla(0, 50%, 80%, 1);
-    --bg-popup-cell-block-own: hsla(0, 100%, 40%, 1);
-    --bg-popup-cell-label-mixed: hsla(45, 100%, 38%, 1);
-    --popup-icon-x-ink: #e22850;
+    --elevation-down-surface: black;
+    --elevation-down1-opacity: 16%;
+    --elevation-down2-opacity: 32%;
+    --elevation-up-surface: white;
+    --elevation-up1-opacity: 12%;
+    --elevation-up2-opacity: 24%;
+
+    --root-surface: black;
+    --root-ink: white;
+
+    --ink-rgb: var(--light-gray-10);
+
+    --default-surface: rgb(var(--dark-gray-90));
+    --default-surface-up1: rgb(var(--dark-gray-80));
+    --default-surface-up2: rgb(var(--dark-gray-70));
+    --default-surface-up3: rgb(var(--dark-gray-60));
+    --default-surface-up4: rgb(var(--dark-gray-50));
+    --default-surface-up5: rgb(var(--dark-gray-40));
+    --default-surface-up6: rgb(var(--dark-gray-30));
+    --default-surface-up7: rgb(var(--dark-gray-20));
+
+    --accent-ink: rgb(var(--ink-80));
+    --accent-surface: rgb(var(--violet-10));
+
+    --notice-ink: var(--accent-ink);
+    --notice-surface: var(--accent-surface);
+    --notice-surface-shadow: #000 0 2px 4px;
+
+    --info1-ink: rgb(var(--blue-40));
+    --info1-ink-dimmed: rgb(var(--blue-40) / 80%);
+    --info2-ink: rgb(var(--yellow-40));
+    --info2-ink-dimmed: rgb(var(--yellow-40) / 80%);
+    --info3-ink: rgb(var(--orange-40));
+    --info3-ink-dimmed: rgb(var(--orange-40) / 80%);
+    --info4-ink: rgb(var(--red-40));
+    --info4-ink-dimmed: rgb(var(--red-40) / 80%);
+
+    /* popup panel */
+    --popup-cell-surface: var(--default-surface-up2);
+    --popup-cell-label-filter: opacity(40%);
+    --popup-cell-cname-ink: hsla(0, 0%, 53%, 0.3);
+    --popup-cell-allow-own-surface: #24a719;
+    --popup-cell-allow-surface: #24a719a0;
+    --popup-cell-noop-own-surface: #919191;
+    --popup-cell-noop-surface: #919191a0;
+    --popup-cell-block-own-surface: #ff4c2b;
+    --popup-cell-block-surface: #ff4c2b90;
+    --popup-cell-label-mixed-surface: hsla(45, 100%, 38%, 1);
+    --popup-icon-x-ink: rgb(var(--red-50));
+    --popup-power-ink: rgb(var(--blue-40));
+    --popup-ruleset-tool-ink: var(--accent-ink);
+    --popup-ruleset-tool-surface: var(--default-surface-up7);
+    --popup-ruleset-tool-shadow: #000 0 2px 4px;
 
     /* cloud widget */
-    --cloud-widget-surface: var(--dark-gray-80);
+    --cloud-total-used-surface: rgb(var(--violet-20) / 25%);
+    --cloud-used-surface: rgb(var(--violet-20));
 
+    /* codemirror */
+    --cm-merge-copy-ink: rgb(var(--blue-30));
+    --cm-foldmarker-ink: rgb(var(--blue-20));
+    --cm-matchingbracket: rgb(var(--green-30) / 50%);
+    --cm-merge-l-chunk-border: rgb(var(--blue-70));
+    --cm-merge-l-chunk-surface: rgb(var(--blue-90));
+    --cm-negative: #f44;
+    --cm-positive: #0c0;
+    --cm-searching-ink: var(--root-surface);
+    --cm-searching-surface: rgb(var(--blue-30) / 75%);
+    --cm-search-match-surface: rgb(var(--blue-30) / 50%);
 
- /* Need to set colors in forms.css for moz-field stuffz
-  -moz-FieldText: #888888 !important;  change from these names to either HEX value or variables.  default-ink
-  -moz-Field: #15141a !important;    var would be var(--dark-gray-90) hex value might be easiest though.
- /* TO DO
- 1. Epicker window box color Variables needed;
-  #ublock0-epicker aside
-  background-color: var(--dark-gray-90)
-  outer border: var(--dark-gray-90)
-  inner order: var (
-  color: #999999a0
-  html#ublock0-epicker, #ublock0-epicker body
-    background: transparent !important;
-    color: #777 !important;
+    /* syntax highlight: static filtering */
+    --sf-comment-ink: var(--default-ink-4);
+    --sf-def-ink: rgb(var(--blue-20));
+    --sf-error-ink: rgb(var(--red-40));
+    --sf-error-surface: rgb(var(--red-40) / 40%);
+    --sf-keyword-ink: rgb(var(--purple-10));
+    --sf-notice-ink: var(--default-surface-up5);
+    --sf-readonly-ink: var(--default-ink-6);
+    --sf-tag-ink: rgb(var(--green-50));
+    --sf-value-ink: rgb(var(--orange-30));
+    --sf-variable-ink: var(--default-ink);
+    --sf-warning-ink: rgb(var(--yellow-50));
 
- 2. CodeMirror (my filters and Whitelist) ADVANCED SETTINGS (background and color need variables)
-      .CodeMirror background: (currenty set to white) need a var
-    my Rules tab
-    codemirror panes   CodeMirror-merge-pane CodeMirror-merge-left
-    CodeMirror-merge-pane CodeMirror-merge-editor CodeMirror-merge-pane-rightmost
-    ***** file used is codemirror.css *********
-
- 3. #cloudWidget background (linked to img) background is hsl - would be better if we had a background color instead of hsl.
-    ***** file used is cloud-ui.css ********
- 4. Logger UI screen.  .permatoolbar, modalOverlayContainer : background-color;
-    headers  background-color, color border-color
-    #netFilteringDialog > div.panes > .dynamic .entry background-color: border-bottom:  ;
-    #netFilteringDialog > div.panes > .dynamic .entry > .action > .allow .noop .block
-    background-color.
-    #modalOverlayClose stoke: background-color
-    ****** file used is logger-ui.css *******
-    *//*
- 5. Seperator bar - element/selector is hr   in common.css a variable is assigned.  popup-fenix.css
-    border-top - assigned HEX of #e3e2e3 variable should be assinged like in common.css
-    var(--hor-separator-color)
- 6. .rulesetTools border color needs a variable
-    **** popup-fenix.css *****
-*/
+    /* logger */
+    --logger-allowed-surface: #24a71960;
+    --logger-blocked-surface: #ff4c2b60;
+    --logger-modified-surface: #663efd60;
+    --logger-redirected-surface: rgb(var(--yellow-5) / 40%);
 }
 
 :root.dark.colorBlind {

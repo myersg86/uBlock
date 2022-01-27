@@ -34,6 +34,7 @@ a {
     text-decoration: none;
     }
 .code {
+    background-color: var(--default-surface-up1);
     font-size: 13px;
     word-break: break-all;
     }
@@ -41,7 +42,7 @@ a {
     width: 100%;
     }
 #warningSign > a {
-    fill: var(--yellow-50);
+    fill: rgb(var(--yellow-50));
     font-size: 96px;
     }
 #theURL {
@@ -58,9 +59,9 @@ a {
     background-color: transparent;
     top: 100%;
     box-sizing: border-box;
-    color: var(--fg-0-60);
+    color: var(--default-ink-4);
+        fill: var(--default-ink-4);
     cursor: pointer;
-    fill: var(--fg-0-60);
     font-size: 1.2rem;
     padding: var(--default-gap-xxsmall);
     position: absolute;
@@ -83,10 +84,9 @@ body[dir="rtl"] #theURL > p > span:last-of-type {
     fill: var(--default-ink);
     }
 #parsed {
-    background-color: var(--bg-1);
-    border: 1px solid var(--bg-code);
+    background-color: var(--default-surface-up2);
     border-top: none;
-    color: var(--fg-0-80);
+    color: var(--default-ink);
     font-size: small;
     overflow-x: auto;
     padding: var(--default-gap-xxsmall);
