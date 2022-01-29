@@ -34,7 +34,6 @@ a {
     text-decoration: none;
     }
 .code {
-    background-color: var(--default-surface-up1);
     font-size: 13px;
     word-break: break-all;
     }
@@ -59,8 +58,8 @@ a {
     background-color: transparent;
     top: 100%;
     box-sizing: border-box;
-    color: var(--default-ink-4);
-        fill: var(--default-ink-4);
+    color: var(--ink-4);
+        fill: var(--ink-4);
     cursor: pointer;
     font-size: 1.2rem;
     padding: var(--default-gap-xxsmall);
@@ -80,13 +79,12 @@ body[dir="rtl"] #theURL > p > span:last-of-type {
     left: 0;
     }
 #theURL > p:hover > span {
-    color: var(--default-ink);
-    fill: var(--default-ink);
+    color: var(--ink-1);
+        fill: var(--ink-1);
     }
 #parsed {
-    background-color: var(--default-surface-up2);
-    border-top: none;
-    color: var(--default-ink);
+    background-color: var(--surface-1);
+    border: 4px solid var(--surface-2);
     font-size: small;
     overflow-x: auto;
     padding: var(--default-gap-xxsmall);

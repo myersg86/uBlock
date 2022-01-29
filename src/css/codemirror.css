@@ -5,9 +5,9 @@
     position: relative;
     }
 .CodeMirror {
-    background-color: var(--root-surface);
+    background-color: var(--surface-0);
     box-sizing: border-box;
-    color: var(--default-ink);
+    color: var(--ink-1);
     flex-grow: 1;
     height: 100%;
     width: 100%;
@@ -224,7 +224,8 @@
     vertical-align: top;
     }
 .CodeMirror-merge-spacer {
-    background-color: var(--default-surface);
+    background-color: var(--surface-0);
+    opacity: 40%;
     }
 
 .CodeMirror-hints {

@@ -1,7 +1,6 @@
 html#ublock0-epicker,
 #ublock0-epicker body {
     background: transparent;
-    color: var(--default-ink);
     cursor: not-allowed;
     font: 12px sans-serif;
     height: 100vh;
@@ -13,8 +12,8 @@ html#ublock0-epicker,
     outline: none;
 }
 #ublock0-epicker aside {
-    background-color: var(--default-surface);
-    border: 1px solid var(--default-surface-up5);
+    background-color: var(--surface-1);
+    border: 1px solid var(--border-2);
     bottom: 2px;
     box-sizing: border-box;
     cursor: default;
@@ -63,7 +62,7 @@ html#ublock0-epicker,
     width: 100%;
 }
 #ublock0-epicker section > div:first-child {
-    border: 1px solid var(--default-surface-up5);
+    border: 1px solid var(--border-2);
     margin: 0;
     position: relative;
 }
@@ -206,7 +205,7 @@ html#ublock0-epicker,
     border: 1px dotted rgb(var(--blue-50));
     }
 #ublock0-epicker #candidateFilters .changeFilter li:hover {
-    background-color: var(--default-surface-up1);
+    background-color: var(--surface-2);
 }
 
 /**

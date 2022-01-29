@@ -6,7 +6,6 @@ body {
     margin-bottom: 6rem;
     }
 #actions {
-    background-color: var(--default-surface);
     padding: var(--default-gap-small) 0 var(--default-gap-xsmall) 0;
     position: sticky;
     top: 0;
@@ -28,7 +27,7 @@ body {
     }
 #listsOfBlockedHostsPrompt::before,
 .groupEntry:not([data-groupkey="user"]) .geDetails::before {
-    color: var(--default-ink-5);
+    color: var(--ink-3);
     content: '\2212';
     font-family: monospace;
     font-size: large;
@@ -49,7 +48,7 @@ body.hideUnused #listsOfBlockedHostsPrompt::before,
     pointer-events: none;
     }
 .groupEntry .geCount {
-    color: var(--default-ink-4);
+    color: var(--ink-3);
     font-size: 90%;
     pointer-events: none;
     }
@@ -76,8 +75,8 @@ body.hideUnused #listsOfBlockedHostsPrompt::before,
     }
 .listEntry .fa-icon,
 .listEntry .counts {
-    color: var(--default-ink-5);
-        fill: var(--default-ink-5);
+    color: var(--ink-3);
+        fill: var(--ink-3);
     display: none;
     font-size: 120%;
     margin: 0 0.2em 0 0;

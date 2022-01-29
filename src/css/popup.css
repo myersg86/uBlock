@@ -1,8 +1,7 @@
 :root {
     --bg-tooltip: hsla(60, 100%, 97%, 1);
-    --fg-tooltip: var(--default-ink);
-    --bg-popup-cell-1: hsla(261, 0%, 93%, 1);
     --popup-power-ink-hover: rgb(var(--blue-60));
+    --ink-5: rgb(var(--ink-rgb) / 20%);
     }
 :root.dark {
     --popup-power-ink-hover: rgb(var(--blue-30));
@@ -18,9 +17,9 @@ body {
     }
 
 h2 {
-    background-color: var(--bg-popup-cell-1);
+    background-color: var(--surface-2);
     border: 0;
-    color: var(--default-ink-3);
+    color: var(--ink-3);
     cursor: pointer;
     font-size: 100%;
     font-weight: normal;
@@ -113,8 +112,8 @@ p {
         fill: var(--popup-power-ink-hover);
     }
 body.off #switch .fa-icon {
-    color: var(--default-ink-8);
-        fill: var(--default-ink-8);
+    color: var(--ink-5);
+        fill: var(--ink-5);
     }
 #basicTools {
     margin: 1.2em 0 0.5em 0;
@@ -123,8 +122,8 @@ body.off #switch .fa-icon {
     margin-left: 0;
     }
 .tool {
-    color: var(--default-ink-6);
-        fill: var(--default-ink-6);
+    color: var(--ink-4);
+        fill: var(--ink-4);
     cursor: pointer;
     margin-left: 0.8em;
     min-width: 1em;
@@ -143,7 +142,7 @@ body.off #switch .fa-icon {
     font-size: 1.25em;
     }
 .statName {
-    color: var(--default-ink-3);
+    color: var(--ink-3);
     font-size: 85%;
     margin: 0.8em 0.2em 0.4em 0.2em;
     }
@@ -151,7 +150,7 @@ body.off #switch .fa-icon {
     margin: 0;
     }
 #extraTools {
-    background-color: var(--bg-popup-cell-1);
+    background-color: var(--surface-2);
     border: 0;
     display: flex;
     justify-content: center;
@@ -162,8 +161,8 @@ body.responsive #extraTools {
     justify-content: space-evenly;
     }
 #extraTools > span {
-    color: var(--default-ink-6);
-        fill: var(--default-ink-6);
+    color: var(--ink-4);
+        fill: var(--ink-4);
     cursor: pointer;
     font-size: 1.2em;
     margin: 0 0.8em 0 0;
@@ -195,7 +194,7 @@ body.responsive #extraTools {
     border-radius: 4px;
     cursor: pointer;
     display: none;
-    fill: var(--default-ink-5);
+    fill: var(--ink-3);
     font-size: 3em;
     justify-content: center;
     left: 4px;
@@ -217,7 +216,7 @@ body.dirty #refresh:hover {
     border-radius: 3px;
     box-shadow: 1px 1px 3px gray;
     box-sizing: border-box;
-    color: var(--fg-tooltip);
+    color: var(--ink-1);
     cursor: pointer;
     direction: ltr;
     font: 12px sans-serif;
@@ -272,7 +271,7 @@ body[dir="rtl"] #tooltip {
     display: none;
     }
 #firewallContainer > div > span {
-    background-color: var(--bg-popup-cell-1);
+    background-color: var(--surface-2);
     border: none;
     box-sizing: border-box;
     display: inline-flex;
@@ -314,7 +313,7 @@ body[dir="rtl"] #tooltip {
     }
 #firewallContainer > div > span:nth-of-type(3),
 #firewallContainer > div > span:nth-of-type(4) {
-    color: var(--default-ink-3);
+    color: var(--ink-3);
     display: none;
     font-family: monospace;
     text-align: center;
@@ -323,7 +322,7 @@ body[dir="rtl"] #tooltip {
     font-weight: bold;
     }
 #firewallContainer > div:first-of-type > span:first-of-type::before {
-    color: var(--default-ink-5);
+    color: var(--ink-3);
     content: '+';
     padding-right: 0.25em;
     }
@@ -413,7 +412,7 @@ body.advancedUser #firewallContainer > div > span:first-of-type ~ span {
     width: 7px;
     }
 #firewallContainer > div.isRootContext > span:first-of-type::before {
-    background-color: var(--default-ink-5);
+    background-color: var(--ink-3);
     width: 14px !important;
     }
 #firewallContainer > div.allowed > span:first-of-type::before,
@@ -443,7 +442,7 @@ body.advancedUser #firewallContainer > div > span.noopRule,
     }
 body.advancedUser #firewallContainer > div > span.ownRule,
 #firewallContainer > div > span.ownRule {
-    color: var(--default-surface);
+    color: var(--surface-1);
     }
 body.advancedUser #firewallContainer > div > span.allowRule.ownRule,
 #actionSelector > #dynaAllow:hover {
@@ -508,7 +507,7 @@ body.advancedUser #firewallContainer > div > span.noopRule.ownRule,
     border-radius: 4px;
     cursor: pointer;
     display: inline-block;
-    fill: var(--default-ink-5);
+    fill: var(--ink-3);
     font-size: 1.8em;
     line-height: 1.0;
     margin: 0;
